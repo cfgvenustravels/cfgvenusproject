@@ -1,0 +1,232 @@
+body {
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Montserrat', 'Cardo' , serif;
+}
+
+nav a {
+  font-size: 10px;
+  color: #212529;
+  font-family: 'Montserrat', serif;
+}
+
+p {
+	font-family:'Cardo', serif;
+	color: #474747;
+}
+
+a {
+	text-decoration: none;
+	color: #FBF3E8; 
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+h2 {
+  font-size: 45px;
+	color: #302e2a;
+}
+
+h3 {
+  font-size: 25px;
+	color: #302e2a;
+}
+
+.post-preview p a {
+  font-size: 20px;
+	color: #302e2a;
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+  text-align: center;
+}
+.carousel-inner p {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}  
+
+/* NAVIGATION BAR  */
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.carousel-item active img{
+  opacity: 0.75;
+}
+
+.carousel-item img{
+  opacity: 0.75;
+}
+
+.blog-description {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.quote-box {
+  font-style: italic;
+  color: #A7B480;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.header { 
+	font-family: 'Montserrat', sans-serif;
+	color: #E39C7B;
+	font-size: 30px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.header img {
+	width: 100px;
+
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+/* BLOG POSTS */
+
+.post-preview > a {
+  color: #212529;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #0085A1;
+}
+
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085A1;
+
+
+blockquote {
+	font-family: 'Montserrat', sans-serif;
+	color: #474747;
+	margin:3%;
+	border-left:10px solid #68a9ff;
+	padding: 2%;
+	color:#222;
+	font-style:italic;
+	line-height:130%;
+	
+}
+
+/* FOOTER */
+.copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
