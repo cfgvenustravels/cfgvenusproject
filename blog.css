@@ -221,8 +221,19 @@ header.masthead .site-heading {
   color: #0085A1;
 
 
+/* FOOTER DOESN'T WORK */
+#copyright {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 30px;
+  font-family: 'Montserrat', serif;
+}
 
-/* FOOTER */
+
+/* NEW FOOTER */
 .copyright {
   text-align: center;
   padding-top: 50px;
@@ -231,4 +242,5 @@ header.masthead .site-heading {
   margin-bottom: 0px;
   height: 30px;
   font-family: 'Montserrat', serif;
+}
 }
