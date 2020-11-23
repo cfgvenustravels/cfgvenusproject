@@ -224,9 +224,13 @@ blockquote {
 }
 
 /* FOOTER */
-.copyright {
-  font-size: 14px;
-  margin-bottom: 0;
+#copyright {
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 30px;
+  font-family: 'Montserrat', serif;
 }
 
