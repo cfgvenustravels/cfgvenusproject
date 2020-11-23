@@ -110,6 +110,13 @@ header.masthead .site-heading {
   text-transform: uppercase;
 }
 
+.navbar a:hover {
+  color: #D5D7B9;
+  transition: 0.1s;
+  text-decoration: #D5D7B9 solid underline;
+}
+
+/* BLOG IMAGES CAROUSEL */
 .carousel-item active img{
   opacity: 0.75;
 }
@@ -211,17 +218,6 @@ header.masthead .site-heading {
   color: #0085A1;
 
 
-blockquote {
-	font-family: 'Montserrat', sans-serif;
-	color: #474747;
-	margin:3%;
-	border-left:10px solid #68a9ff;
-	padding: 2%;
-	color:#222;
-	font-style:italic;
-	line-height:130%;
-	
-}
 
 /* FOOTER */
 #copyright {
