@@ -91,7 +91,7 @@ path {
   cursor: pointer;
 }
 path:hover {
-  fill: red;
+  fill: #E39C7B;
 }
 
 #copyright {
