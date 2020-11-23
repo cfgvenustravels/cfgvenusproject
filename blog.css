@@ -4,12 +4,6 @@ body {
   font-family: 'Montserrat', 'Cardo' , serif;
 }
 
-nav a {
-  font-size: 10px;
-  color: #212529;
-  font-family: 'Montserrat', serif;
-}
-
 p {
 	font-family:'Cardo', serif;
 	color: #474747;
@@ -83,6 +77,12 @@ header.masthead .site-heading {
 
 /* NAVIGATION BAR  */
 
+nav a {
+  font-size: 10px;
+  color: #212529;
+  font-family: 'Montserrat', serif;
+}
+
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
@@ -108,6 +108,7 @@ header.masthead .site-heading {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+  list-style-type: none;
 }
 
 .navbar a:hover {
@@ -115,8 +116,9 @@ header.masthead .site-heading {
     transition: 0.1s;
   }
 
+
 /* BLOG IMAGES CAROUSEL */
-.carousel-item active img{
+.carousel-item-active img{
   opacity: 0.75;
 }
 
@@ -219,7 +221,8 @@ header.masthead .site-heading {
 
 
 /* FOOTER */
-#copyright {
+
+.copyright {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 0px;
