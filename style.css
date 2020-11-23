@@ -42,7 +42,7 @@ nav a {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.nav-menu a:hover {
+.navbar a:hover {
   color: #D5D7B9;
   transition: 0.1s;
   text-decoration: #D5D7B9 solid underline;
