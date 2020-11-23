@@ -111,10 +111,9 @@ header.masthead .site-heading {
 }
 
 .navbar a:hover {
-  color: #D5D7B9;
-  transition: 0.1s;
-  text-decoration: #D5D7B9 solid underline;
-}
+    color: #A7B480;
+    transition: 0.1s;
+  }
 
 /* BLOG IMAGES CAROUSEL */
 .carousel-item active img{
