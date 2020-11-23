@@ -43,9 +43,8 @@ nav a {
   text-transform: uppercase;
 }
 .navbar a:hover {
-  color: #D5D7B9;
+  color: #A7B480;
   transition: 0.1s;
-  text-decoration: #D5D7B9 solid underline;
 }
 
 
