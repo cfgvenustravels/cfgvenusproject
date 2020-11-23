@@ -12,7 +12,7 @@ body {
 /* NAVIGATION BAR */
 nav a {
   font-size: 10px;
-  color: #212529;
+  color: #302E2A;
   font-family: 'Montserrat', serif;
 }
 
@@ -25,7 +25,7 @@ nav a {
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #343a40;
+  color: #302E2A;
 }
 
 #mainNav .navbar-toggler {
@@ -33,7 +33,7 @@ nav a {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #343a40;
+  color: #302E2A;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -45,7 +45,7 @@ nav a {
 .nav-menu a:hover {
   color: #D5D7B9;
   transition: 0.1s;
-  text-decoration: red solid underline;
+  text-decoration: #D5D7B9 solid underline;
 }
 
 
@@ -55,7 +55,7 @@ nav a {
   margin-top: 0px;
   margin-bottom: 0px;
   font-style: italic;
-  color: gray;
+  color: #302E2A;
   padding-bottom: 5px;
 }
 
@@ -65,7 +65,7 @@ nav a {
     top: 45%;
     left: 40%;  
     z-index: 2;
-    background-color: red;
+    background-color: #D5D7B9;
     border-radius: 30px;
 }
 
@@ -90,7 +90,7 @@ svg {
   z-index: 1;
 }
 path {
-  fill: black;
+  fill: #302E2A;
   cursor: pointer;
 }
 path:hover {
