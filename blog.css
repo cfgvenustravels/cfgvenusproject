@@ -182,6 +182,17 @@ header.masthead .site-heading {
   color: white;
 }
 
+/* FOOTER */
+.copyright {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 30px;
+  font-family: 'Montserrat', serif;
+}
+
 /* BLOG POSTS */
 
 .post-preview > a {
@@ -220,27 +231,3 @@ header.masthead .site-heading {
   text-decoration: underline;
   color: #0085A1;
 
-
-/* FOOTER DOESN'T WORK */
-#copyright {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 30px;
-  font-family: 'Montserrat', serif;
-}
-
-
-/* NEW FOOTER */
-.copyright {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 30px;
-  font-family: 'Montserrat', serif;
-}
-}
