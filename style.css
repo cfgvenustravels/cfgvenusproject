@@ -70,7 +70,8 @@ header.masthead .overlay {
 
 header.masthead .page-heading,
 header.masthead .post-heading,
-header.masthead .site-heading {
+header.masthead .site-heading,
+header.masthead .subheading {
   padding: 200px 0 150px;
   color: white;
   text-align: center;
