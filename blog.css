@@ -51,6 +51,7 @@ header.masthead {
   background-attachment: scroll;
   position: relative;
   background-size: cover;
+  text-align: center;
 }
 
 header.masthead .overlay {
