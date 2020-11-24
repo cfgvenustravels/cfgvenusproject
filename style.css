@@ -74,16 +74,17 @@ header.masthead .site-heading {
   padding: 200px 0 150px;
   color: white;
   text-align: center;
-
-#instructions h3{
-  text-align: center;
-  font-family: 'Montserrat', serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-style: italic;
-  color: #302E2A;
-  padding-bottom: 5px;
 }
+
+#instructions h3 {
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: italic;
+    color: #302E2A;
+    padding-bottom: 5px;
+  }
 
 #button {
    position:absolute;
