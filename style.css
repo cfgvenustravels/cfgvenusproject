@@ -12,7 +12,7 @@ body {
 /* NAVIGATION BAR */
 nav a {
   font-size: 10px;
-  color: #302E2A;
+  color: #212529;
   font-family: 'Montserrat', serif;
 }
 
@@ -20,12 +20,12 @@ nav a {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
   background-color: white;
-  font-family: 'Montserrat', 'Cardo', sans-serif;
+  font-family: 'Montserrat','Cardo', sans-serif;
 }
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #302E2A;
+  color: #343a40;
 }
 
 #mainNav .navbar-toggler {
@@ -33,7 +33,7 @@ nav a {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #302E2A;
+  color: #343a40;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -41,12 +41,13 @@ nav a {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+  list-style-type: none;
 }
+
 .navbar a:hover {
-  color: #D5D7B9;
-  transition: 0.1s;
-  text-decoration: #D5D7B9 solid underline;
-}
+    color: #A7B480;
+    transition: 0.1s;
+  }
 
 /* HEADER WEBSITE INTRO */
 header.masthead {
