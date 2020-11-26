@@ -77,74 +77,44 @@ header.masthead .site-heading {
 
 /* NAVIGATION BAR  */
 
-.container {
-  width: 100%;
-  padding-left: 0px;
-  margin: 0px 0px 0px 0px;  
+nav a {
+  font-size: 10px;
+  color: #212529;
+  font-family: 'Montserrat', serif;
 }
 
-.landing-page {
-  float: left;
-  background-color: #FFF;
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Montserrat','Cardo', sans-serif;
 }
 
-.landing-page .header-area {
-  display: flex;
-  padding-top: 25px;
-  padding-bottom: 15px;
-  position: relative;
-  width: 100%;
-  margin: 0px;
-  margin-top: 0px;
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
 }
 
-.logo {
-  margin-left: 5px;
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
 }
 
-.landing-page .header-area .links {
-  list-style: none;
-  margin: 0;
-  float: right;
-  text-align: right;
-  width: 800px;
-  margin-left: 1000px;
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  list-style-type: none;
 }
 
-.landing-page .header-area .links li {
-  display: inline-block;
-  text-align: center;
-  margin-left: 50px;
-  font-style: black;
-  cursor: pointer;
-  font-weight: bold;
-  padding-bottom: 3px;
-  text-decoration: none;
-}
-  
-li a {
-  text-decoration: none;
-  color: black;
-}
-.links li a:hover {
-  color: black;
-  transition: 0.1s;
-  border-bottom: solid #E39C7B;
-  text-decoration: none;
-}
-
-.links input[type=text] {
-  font-size: 15px;
-  margin-left: 0px;
-  border-color: black;
-  border-width: 1px;
-  text-decoration: black;
-  margin-right: 20px;
-}
-
-#move {
-  float: right;
-}
+.navbar a:hover {
+    color: #A7B480;
+    transition: 0.1s;
+  }
 
 
 /* BLOG IMAGES CAROUSEL */
