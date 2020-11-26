@@ -1,60 +1,75 @@
-  /* NAVIGATION BAR  */
-  nav a {
-  font-size: 10px;
-  color: #212529;
-  font-family: 'Montserrat', serif;
-  }
+ /*Landing Page*/
+ .container {
+  width: 100%;
+  padding-left: 0px;
+  margin: 0px 0px 0px 0px;  
+}
 
-  ul {
-  list-style-type: none;
+.landing-page {
+  float: left;
+  background-color: #FFF;
+}
+
+.landing-page .header-area {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  margin-top: 0px;
+}
+
+.logo {
+  margin-left: 5px;
+}
+
+.landing-page .header-area .links {
+  list-style: none;
   margin: 0;
-  padding: 0;
-  }
+  float: right;
+  text-align: right;
+  width: 800px;
+  margin-left: 1000px;
+}
 
-  #mainNav {
-  position: absolute;
-  border-bottom: 1px solid #e9ecef;
-  background-color: white;
+.landing-page .header-area .links li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;
+  font-style: black;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+  
+li a {
+  text-decoration: none;
+  color: black;
+}
+.links li a:hover {
+  color: black;
+  transition: 0.1s;
+  border-bottom: solid #E39C7B;
+  text-decoration: none;
+}
+
+.links input[type=text] {
+  font-size: 15px;
+  margin-left: 0px;
+  border-color: black;
+  border-width: 1px;
+  text-decoration: black;
+  margin-right: 20px;
   font-family: 'Montserrat','Cardo', sans-serif;
-  display: inline-flex;
-  opacity: 1.5;
-  }
+}
 
-  #mainNav .navbar-brand {
-  font-weight: 800;
-  color: #343a40;
-  }
+#move {
+  float: right;
+  font-family: 'Montserrat','Cardo', sans-serif;
+}
 
-  #mainNav .navbar-toggler {
-  font-size: 12px;
-  font-weight: 800;
-  padding: 13px;
-  text-transform: uppercase;
-  color: #343a40;
-  }
-
-  #mainNav .navbar-nav > li.nav-item > a {
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  }
-
-  a:link {
-  text-decoration: none;
-  }
-
-  a:visited {
-  text-decoration: none;
-  }
-
-  a:hover {
-  text-decoration: underline;
-  }
-
-  a:active {
-  text-decoration: underline;
-  }
 
 
   /* HEADER BAR */
